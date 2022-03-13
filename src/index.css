@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --light-color: #E8E2E2;
+  --secondary-color: #E8D2AE;
+  --third-color: #D7B29D;
+  --fourth-color: #CB8589;
+  --dark-color: #796465;
+}
+.flex{
+  display: flex;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align-center{
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
