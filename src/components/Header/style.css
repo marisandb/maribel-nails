@@ -1,18 +1,12 @@
+header{
+    margin-top: 20px;
+}
 .logo {
+    margin: auto;
+}
+
+.logo img{
     border: 5px double var(--dark-color);
-    margin-top: 5%;
-}
-
-.header-button {
-    top: 5px;
-    right: 90px;
-    position: absolute;
-    display: inline-block;
-    text-align: left;
-    margin-top: 1%;
-}
-
-.icons{
-    color: var(--dark-color);
-    margin: 2%;
+    width: 350px;
+    height: auto;
 }

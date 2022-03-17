@@ -1,0 +1,48 @@
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: var(--dark-color);
+  }
+  
+  .navigation a:hover {
+    color: var(--fourth-color);
+  }
+  
+
+
+.icons{
+    color: var(--dark-color);
+    margin: 2%;
+}
+
+
+
+
+
+/* .nav{
+    margin: 0;
+    padding: 0;
+    display: block;
+
+
+    .links{
+        color: $dark-color;
+        font-size: larger;
+        display: flex;
+        justify-content: center;
+        }
+
+    a{
+        color: $dark-color;
+        margin: 5px;
+        }
+  
+} */

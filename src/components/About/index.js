@@ -1,5 +1,7 @@
 import React from 'react';
 import Maribel from '../../assets/about/selfie.jpg';
+import "./style.css"
+
 
 const About = () =>{
   return (
