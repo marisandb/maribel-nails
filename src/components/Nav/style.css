@@ -16,33 +16,12 @@
     color: var(--fourth-color);
   }
   
-
-
+.header-button{
+  text-align: center;
+}
+  
 .icons{
     color: var(--dark-color);
-    margin: 2%;
+    font-size: 30px;
+    margin-right: 10px;
 }
-
-
-
-
-
-/* .nav{
-    margin: 0;
-    padding: 0;
-    display: block;
-
-
-    .links{
-        color: $dark-color;
-        font-size: larger;
-        display: flex;
-        justify-content: center;
-        }
-
-    a{
-        color: $dark-color;
-        margin: 5px;
-        }
-  
-} */

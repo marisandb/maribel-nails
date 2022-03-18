@@ -8,8 +8,9 @@ import { IconContext } from "react-icons";
 
 const Nav= () =>{
   return (
-  <div className='navigation'>
-    <ul className=''>
+  <div className=' nav'>
+    <div>
+    <ul className='navigation'>
       <li>
         <Link to="/">Home</Link>
       </li>
@@ -26,6 +27,7 @@ const Nav= () =>{
         <Link to="/policies">Policies</Link>
       </li>
     </ul>
+    </div>
     <div className='header-button'>
         <IconContext.Provider value={{ className: 'icons'}}>
         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/Maribel.Cosm"><BsFacebook/></a>
