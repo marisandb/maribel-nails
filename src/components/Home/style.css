@@ -1,0 +1,17 @@
+.services{
+    margin-left: 250px;
+}
+
+.services-title{
+    background-color: var(--fourth-color);
+    color: var(--light-color);
+    border: 5px solid var(--dark-color);
+    text-align: center;
+    width: 50%;
+
+}
+
+.services-list li{
+    list-style: disc;
+    padding: 10px;
+}
