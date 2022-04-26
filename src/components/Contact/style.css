@@ -1,0 +1,23 @@
+@media (min-width: 300px) {
+    .contact-box{
+        display: flex;
+        flex-flow: column wrap;
+        background-color: var(--fourth-color);
+        color: var(--light-color);
+        border: 5px solid var(--dark-color);
+        text-align: center;
+        width: 75%;
+        margin: 10%;
+    }
+    #contact-form {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .submit-btn {
+        width: 10%;
+        border-radius: 25px;
+        background-color: var(--light-color);
+        color: var(--dark-color)
+    }
+    
+}
