@@ -1,17 +1,38 @@
-.services{
+/* .services{
     margin-left: 250px;
-}
+} */
 
 .services-title{
     background-color: var(--fourth-color);
     color: var(--light-color);
     border: 5px solid var(--dark-color);
     text-align: center;
-    width: 50%;
-
+    width: 75%;
 }
 
 .services-list li{
     list-style: disc;
     padding: 10px;
+    color: var(--dark-color);
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
 }

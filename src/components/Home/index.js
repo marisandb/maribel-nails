@@ -4,7 +4,7 @@ import "./style.css"
 const Home = () =>{
   return (
     <div>
-      <div className='services flex-row'>
+      <div className='services flex'>
         <div className='services-title'>
         <h2> Services</h2>
         </div>

@@ -88,5 +88,5 @@ function Contact() {
     </section>
   );
 }
-
+// link to conect back end: https://mailtrap.io/blog/react-contact-form/
 export default Contact;

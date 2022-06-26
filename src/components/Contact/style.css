@@ -1,4 +1,4 @@
-@media (min-width: 300px) {
+/* @media (min-width: 320px) {
     .contact-box{
         display: flex;
         flex-flow: column wrap;
@@ -6,8 +6,9 @@
         color: var(--light-color);
         border: 5px solid var(--dark-color);
         text-align: center;
-        width: 75%;
+        width: 100%;
         margin: 10%;
+        padding: 10%;
     }
     #contact-form {
         display: flex;
@@ -20,4 +21,51 @@
         color: var(--dark-color)
     }
     
+}
+@media (min-width: 768px) {
+    
+}
+@media (min-width: 1024px) {
+    
+} */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    .contact-box{
+        display: flex;
+        flex-flow: column wrap;
+        background-color: var(--fourth-color);
+        color: var(--light-color);
+        border: 5px solid var(--dark-color);
+        text-align: center;
+        width: 100%;
+        margin: 10%;
+        padding: 10%;
+    }
+    #contact-form {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .submit-btn {
+        width: 10%;
+        border-radius: 25px;
+        background-color: var(--light-color);
+        color: var(--dark-color)
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+
 }

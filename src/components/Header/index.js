@@ -5,7 +5,7 @@ import "./style.css"
 function Header() {
   
   return (
-    <header className='flex align-center'>
+    <header className=''>
       <div className='logo'>
         <img src={logo} className="" alt="maribel cosmo logo" />
       </div>

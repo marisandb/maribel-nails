@@ -1,12 +1,28 @@
-header{
-    margin-top: 20px;
-}
-.logo {
-    margin: auto;
+.logo img{
+    border: 7px double var(--dark-color);
+    width: 50%;
+    height: auto;
+} 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logo img{
+        width: 85%;
+        height: auto;
+    } 
 }
 
-.logo img{
-    border: 5px double var(--dark-color);
-    width: 350px;
-    height: auto;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
 }

@@ -8,9 +8,9 @@ import { IconContext } from "react-icons";
 
 const Nav= () =>{
   return (
-  <div className=' nav'>
-    <div>
-    <ul className='navigation'>
+  <div className='nav'>
+    <div className='nav-bar'>
+    <ul className='navigation flex-row'>
       <li>
         <Link to="/">Home</Link>
       </li>
